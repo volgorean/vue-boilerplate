@@ -1,13 +1,15 @@
 <template>
   <div>
-    <h1>Hello there {{name}}!</h1>
+    <h1>Hello there partner!</h1>
   </div>
 </template>
 
 <style lang="scss" scoped>
-  #h1 {
-    font-family: 500 20px/20px sans-serif;
-    color: #222222;
+  h1 {
+    padding-top: 80px;
+    text-align: center;
+    font: 500 42px/42px sans-serif;
+    color: red;
   }
 </style>
 
@@ -15,7 +17,6 @@
   export default {
     data () {
       return {
-        name: "partner"
       }
     },
   }
